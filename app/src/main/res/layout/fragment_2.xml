@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey2"
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/ki"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/y"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="250dp"
+        android:layout_width="155dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Сон Чжун Ки"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Чха Ын У"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>

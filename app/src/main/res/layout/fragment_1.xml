@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey2"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/c"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/e"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="215dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_marginStart="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Ли Чон Сок"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_marginStart="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Хван Ин Ёп"/>
+    </LinearLayout>
+</FrameLayout>

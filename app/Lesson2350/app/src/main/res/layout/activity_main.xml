@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <EditText-->
+<!--        android:id="@+id/number_et"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="enter number"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/send_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="send"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/number_et"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        />-->
+
+    <fragment
+        android:id="@+id/top"
+        android:name="com.natlusrun.lesson2350.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <fragment
+        android:id="@+id/bottom"
+        android:name="com.natlusrun.lesson2350.MiddleFragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/top_fragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:name="com.natlusrun.fragmentstest.TopFragment"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="0dp"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/bottom_fragment"-->
+<!--        android:name="com.natlusrun.fragmentstest.BottomFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="0dp"/>-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>
